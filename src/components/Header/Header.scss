@@ -1,0 +1,43 @@
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 22px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .hamburger-button {
+    transform: scale(1.8);
+    cursor: pointer;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 900;
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      .left {
+        font-size: 2.3rem;
+        position: relative;
+        top: 2px;
+      }
+      .right {
+        font-size: 1rem;
+      }
+    }
+  }
+  .auth {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 400;
+    .login {
+      cursor: pointer;
+    }
+    .signUp {
+      cursor: pointer;
+    }
+  }
+}

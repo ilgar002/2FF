@@ -1,0 +1,16 @@
+@import "./reset.scss";
+@import "./font.scss";
+
+html {
+  background-color: #000;
+}
+body {
+  font-family: "BanjaxNotched";
+}
+button {
+  font-family: "BanjaxNotched";
+}
+.container {
+  width: 65%;
+  margin: 0 auto;
+}

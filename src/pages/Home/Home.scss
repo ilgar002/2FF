@@ -1,0 +1,22 @@
+.home {
+  background-color: #000;
+  height: 100vh;
+  .logo {
+    margin: 30px 0 50px 0 ;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 25px;
+      border-radius: 45%;
+      width: 65%;
+      opacity: 0.25;
+      background-color: #fff;
+      filter: blur(5px);
+      bottom: -20%;
+    }
+  }
+}
